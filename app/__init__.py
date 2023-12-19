@@ -20,9 +20,6 @@ app.config['MYSQL_DB'] = 'marvin'
 mysql = MySQL (app)
 
 
-
-
-
 #call routes from the flask
 from app import routes
 
